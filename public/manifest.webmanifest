@@ -1,0 +1,19 @@
+{
+  "name": "ねつと、うごき。 — スターリングエンジン実習",
+  "short_name": "ねつと、うごき。",
+  "description": "指導書の順に、スターリングエンジンの設計計算・製作・評価を進める授業用ワークブック。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f4ef",
+  "theme_color": "#f5f3ee",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
