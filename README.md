@@ -10,14 +10,13 @@
 
 ## 公開サイトにする（GitHub Pages）
 
-このフォルダーにはGitHub Pagesへの自動公開ワークフローを含めています。現在はGitリポジトリや公開先が未設定のため、公開URLはまだありません。
+**公開サイト：** https://nago-pudding753-cmd.github.io/stirling-engine-class-workbook/
 
-1. このプロジェクトをGitHub上の新しいリポジトリへ登録して、既定ブランチを `main` にする。
-2. GitHubリポジトリの **Settings → Pages → Build and deployment → Source** を **GitHub Actions** にする。
-3. `main` へpushする。Actionsがビルドして `dist/` をGitHub Pagesへ公開する。
-4. 完了後、同じPages設定画面に表示されるURLからサイトを確認する。
+ソースコードは https://github.com/nago-pudding753-cmd/stirling-engine-class-workbook で公開しています。GitHub Pagesへの自動公開ワークフローも設定済みです。
 
-pushのたびに [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) が自動で再公開します。独自ドメインを使う場合はPages設定で別途登録してください。
+既定ブランチ `main` へのpushごとにActionsがビルドし、`dist/` をGitHub Pagesへ再公開します。
+
+再公開設定は [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) にあります。独自ドメインを使う場合はPages設定で別途登録してください。
 
 ## アプリでできること
 
